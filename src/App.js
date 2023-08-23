@@ -1,10 +1,10 @@
-import Header from "./Componentes/Header"; //importando componente
+import Header from "./Componentes/Header"; //importando componente do arquivo
 function App() {
   return (
     <div className="App">
       <Header />
-    </div>
+      </div>
   );
 }
 
-export default App;
+export default App; //exportando para o index.js => renderizar 

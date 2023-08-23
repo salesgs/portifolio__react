@@ -1,75 +1,150 @@
 .header{
   width: 100vw;
-  height: 80vh;
+  height: 65vh;
+  display: flex;
+  justify-content: space-between;
   background-color:#F5F5F5;  
-}
-.header__navigation{
-    /* flex-box */
-   display: flex;
-   justify-content: space-around;
-   margin-top: 0rem;
-   padding-top: 1rem;
 }
 .header__name{
   width: 20vw;
   height: 10vh;
+  /* box-model */
+  padding-left: 6rem;
+  margin-top: 1rem;
 }
 .header__name h3{
+  font-family: Arial, Helvetica, sans-serif;
   color: #464646;
-  font-weight: bold;
 }
-.header__nav{
-  width: 60vw;
-  height: 10vh;
 
-}
-.list{
-  list-style: none;
-  /* flex-box */
+.header__nav{
+  width: 40vw;
+  height: 10vh;
   display: flex;
-  justify-content: space-around;  
+  /* box-model */
+  margin-top: 1rem;
+ }
+
+ .header__nav-list{
+  display: flex;
+  padding:  0 3rem;
+ }
+
+.header__nav-list li{
+  padding:  0 1rem;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.header__nav a{
+  text-decoration: none;
+  color: #464646;
+}
+.section__sobre{
+  width: 100vw;
+  /* height: 60vh; */
+  margin-top: -20rem;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.section__text{
+  width: 50vw;
+  /* height: 30vh; */
+  margin-left: -2rem;
+}
+.section__title{
+  padding-left: 3rem;
  
 }
-.list a{
-  text-decoration: none;
-  color: #464646; 
+.section__text p{
+  padding-left: 3rem;
 }
+.navPerfil{
+  display: flex;
+  list-style: none;
+  margin-left: -0.50rem;
 
-@media(max-width:600px){
-  .header__navigation{
+}
+.navPerfil a{
+  margin: 0 1rem;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif; 
+  color:#464646 ;
+}
+.section__photo{
+  width: 40vw;
+  /* height: 30vh; */
+  margin-top: -3.5rem;
+}
+.photo{
+  width: 40%;
+  height:30vh ;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url('../../../public/images/gabriel.jpeg'); 
+  background-size: cover; 
+}
+@media screen and (min-width:300px) and (max-width:480px) {
+  .header{
+    background-color: #F5F5F5;
+    height: 50vh;   
     width: 100vw;
-    height: 40vh;
   }
-  .list-item{
+  .header__name h3{
+    width: 34vw;
+    margin-left: -5rem;
+    margin-top: 1rem;
+    font-size: 0.80rem;
+    width: 50vw;
+    
+  }
+  .header__nav-list li{
+    margin-top: -0.07rem;
+    
+    margin-left: -3rem;
+    font-size: 0.80rem; 
+  }
+  #photo{
+    width: 160%;
+    height:15vh ;
+    border-radius: 50%;  
+    background-image: url('../../../public/images/gabriel.jpeg'); 
+    background-size: cover;    
+    margin-left: -4rem;
+    margin-left: -5rem;
+    
+  }
+  .nav-item{
     display: none;
   }
-  .header__name{
-     width: 40vw;
-    /* box-model */
-    margin-left: 1rem;
-  }
-}
-@media(min-width:600px){
-  .list-item{
+  .photo{
     display: none;
   }
-  .list{
-    padding-right: 1rem;
-    /* flex-box */
-    display: flex;
-    justify-content: right;  
-  }
-}
-@media(min-width:769px){
-  .header__nav{
-    width: 70vw;
-  }
-  .list{
-    display: flex;
-    justify-content: space-around;
-  }
-  .list-item{
-    display: block;
+  .section__title{
+    width: 90vw;
+    font-size: 0.85rem;
+    margin-top: 10rem;
+    margin-left: -1.30rem;
    
+    padding-top: 1rem;
   }
+  .section__sobre p{
+    width: 90vw;
+     margin-left: -1.30rem;
+     margin-top: -0.90rem;
+    font-size: 0.75rem;  
+    padding-top: 1rem;
+  }
+  .navPerfil{
+    display: flex;
+    margin-left: -2rem;
+    border: solid black 1px;
+    width: 100vw;
+  }
+  .navPerfil li{
+    font-size: 0.75rem;  
+  
+  }
+  
 }
