@@ -1,87 +1,64 @@
-.header{
+header{
+  background-color: #F5F5F5;
+}
+.top{ 
   width: 100vw;
-  height: 65vh;
+  height: 10vh;
+  /* flex-box */
+  display: flex;
+  justify-content: center;
+}
+.top__navigation{
+  width: 90vw;
+  height: 6vh;
   display: flex;
   justify-content: space-between;
-  background-color:#F5F5F5;  
 }
-.header__name{
-  width: 20vw;
-  height: 10vh;
-  /* box-model */
-  padding-left: 6rem;
-  margin-top: 1rem;
+.top__navigation h2{
+  margin-top: 0.60rem;
 }
-.header__name h3{
-  font-family: Arial, Helvetica, sans-serif;
-  color: #464646;
+.top__nav{
+  width: 50vw;
+  padding-top: 0;
 }
-
-.header__nav{
-  width: 40vw;
-  height: 10vh;
+.top__list{
   display: flex;
-  /* box-model */
-  margin-top: 1rem;
- }
-
- .header__nav-list{
-  display: flex;
-  padding:  0 3rem;
- }
-
-.header__nav-list li{
-  padding:  0 1rem;
+  justify-content: space-between;
+}
+.top__list li{
   list-style: none;
-  font-family: Arial, Helvetica, sans-serif; 
 }
-
-.header__nav a{
-  text-decoration: none;
-  color: #464646;
-}
-.section__sobre{
+.sobre{ /*pai*/
   width: 100vw;
-  /* height: 60vh; */
-  margin-top: -20rem;
+  height: 60vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+.sobre__box{ /*pai*/
+  width: 90vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+.sobre__text{
+  width: 50vw;
+  height: 40vh;
+  margin-top: 4rem;
   
 }
-.section__text{
-  width: 50vw;
-  /* height: 30vh; */
-  margin-left: -2rem;
-}
-.section__title{
-  padding-left: 3rem;
- 
-}
-.section__text p{
-  padding-left: 3rem;
-}
-.navPerfil{
+.sobre__link-itens{
+  width: 30vw;
   display: flex;
+  justify-content: space-between;
   list-style: none;
-  margin-left: -0.50rem;
-
+  padding-left: 0.010rem;
 }
-.navPerfil a{
-  margin: 0 1rem;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif; 
-  color:#464646 ;
-}
-.section__photo{
-  width: 40vw;
-  /* height: 30vh; */
-  margin-top: -3.5rem;
-}
-.photo{
-  width: 40%;
-  height:30vh ;
+.sobre__photo{
+  width: 20vw;
+  height: 40vh;
+  margin-top: 4rem;
   border-radius: 50%;
-  margin: 0 auto;
-  background-image: url('../../../public/images/gabriel.jpeg'); 
-  background-size: cover; 
+  background-image: url('../../../public/images/gabriel.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

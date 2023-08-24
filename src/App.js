@@ -2,7 +2,7 @@ import Header from "./Componentes/Header"; //importando componente do arquivo
 function App() {
   return (
     <div className="App">
-      <Header />
+        <Header/>  
       </div>
   );
 }
