@@ -66,7 +66,7 @@
 @media screen and (min-width:360px) and (max-width:480px){
   .header{
     background-color: #F5F5F5;
-    height: 40vh;   
+    height: 50vh;   
     width: 100vw;
   }
   .header__name h3{
@@ -84,7 +84,7 @@
     font-size: 0.80rem; 
   }
   #photo{
-    width: 110%;
+    width: 100%;
     height:10vh ;
     border-radius: 50%;  
     background-image: url('../../../public/images/gabriel.jpeg'); 
@@ -103,7 +103,7 @@
   .section__title{
     width: 90vw;
     font-size: 1rem;
-    margin-top: 9rem;
+    margin-top: 8.5rem;
     margin-left: -1.30rem;
     padding-top: 0.90rem;
     }
@@ -133,7 +133,7 @@
 @media screen and (min-width:375px) and (max-width:480px){
   .header{
     background-color: #F5F5F5;
-    height: 50vh;   
+    height: 55vh;   
     width: 100vw;
   }
   .header__name h3{
@@ -200,7 +200,7 @@
 @media screen and (min-width:390px) and (max-width:480px){
   .header{
     background-color: #F5F5F5;
-    height: 38vh;   
+    height: 50vh;   
     width: 100vw;
   }
   .header__name h3{
@@ -218,7 +218,7 @@
     font-size: 0.80rem; 
   }
   #photo{
-    width: 120%;
+    width: 100%;
     height:10vh ;
     border-radius: 50%;  
     background-image: url('../../../public/images/gabriel.jpeg'); 
