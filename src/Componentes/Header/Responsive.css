@@ -1,4 +1,7 @@
 @media screen and (min-width:200px) and (max-width:900px){
+  header{
+    height: 65vh;
+  }
   .iten{
     display: none;
   }
@@ -28,6 +31,7 @@
   }
   .sobre__text p{
      margin-top: -1rem;
+  
   }
   .sobre__text h1{
     font-size: 1.2rem;
@@ -38,13 +42,4 @@
     margin-top: 0.80rem;
   }
 
-}
-@media screen and (min-width:356px) and (max-width:900px) {
-  .sobre{ /*pai*/
-    width: 100vw;
-    height: 54vh;
-    display: flex;
-    justify-content: center;
-  }
-  
 }

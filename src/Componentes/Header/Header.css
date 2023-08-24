@@ -1,19 +1,19 @@
 header{
-  background-color: #F5F5F5;
-  height: 60vh;
+  height:70vh;
 }
 .top{ 
   width: 100vw;
-  height: 10vh;
   /* flex-box */
   display: flex;
   justify-content: center;
+  background-color: #F5F5F5;
+ 
 }
 .top__navigation{
   width: 90vw;
-  height: 6vh;
   display: flex;
   justify-content: space-between;
+
 }
 .top__navigation h2{
   margin-top: 0.60rem;
@@ -31,19 +31,18 @@ header{
 }
 .sobre{ /*pai*/
   width: 100vw;
-  height: 60vh;
   display: flex;
   justify-content: center;
+  background-color: #F5F5F5;
+
 }
 .sobre__box{ /*pai*/
   width: 90vw;
-  height: 50vh;
   display: flex;
   justify-content: space-between;
 }
 .sobre__text{
   width: 50vw;
-  height: 40vh;
   margin-top: 4rem;
   
 }
