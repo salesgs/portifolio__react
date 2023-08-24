@@ -1,5 +1,6 @@
 header{
   background-color: #F5F5F5;
+  height: 60vh;
 }
 .top{ 
   width: 100vw;
@@ -52,6 +53,9 @@ header{
   justify-content: space-between;
   list-style: none;
   padding-left: 0.010rem;
+}
+.sobre__link-itens li a{
+  text-decoration: none;
 }
 .sobre__photo{
   width: 20vw;

@@ -39,7 +39,7 @@
   }
 
 }
-@media screen and (min-width:356px) and (min-width:390px) and (min-width:480px) and (max-width:900px){
+@media screen and (min-width:356px) and (max-width:900px) {
   .sobre{ /*pai*/
     width: 100vw;
     height: 54vh;
@@ -48,4 +48,3 @@
   }
   
 }
-

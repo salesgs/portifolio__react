@@ -25,10 +25,10 @@ const Header = () => {
             <p>Sou estudante de Desenvolvimento de sistemas do Senai(BA), formado no programa de formação full-stack na Recode-Pro,e atualmente aluno da Oracle Next Education. Bom estou embusca da minha primeira oportunidade no mundo da tecnologia, espero e irie conseguir logo em breve.
             <div>
                <ul className='sobre__link-itens'>
-                    <li>GitHub</li>
-                    <li>LinkedIn</li>
-                    <li>Instagram</li>
-                    <li>Curriculo</li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Curriculo</a></li>
                </ul>
             </div>
             </p>
