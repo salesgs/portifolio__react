@@ -45,8 +45,10 @@ header{
 .sobre__text{
   width: 50vw;
   margin-top: 4rem;
-  font-family: cursive;
-
+  
+}
+.sobre__text p{
+  font-family: 'Times New Roman', Times, serif;
 }
 .sobre__text h1{
   font-family: cursive;
