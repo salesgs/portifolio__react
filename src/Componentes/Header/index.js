@@ -18,7 +18,7 @@ const Header = () => {
                       <li className='iten'><a href=''>Hobbies</a></li>
                       <li className='iten'><a href=''>Formação</a></li>
                       <li className='iten'><a href=''>Projetos</a> </li>
-                      <li>Whatsapp</li>   
+                      <li><a href='https://wa.me/55+71988375554'>Whatsapp</a></li>   
                    </ul>
             
               </nav>
