@@ -1,4 +1,4 @@
-@media screen and (min-width:200px) and (max-width:900px){
+@media screen and (min-width:200px) and (max-width:700px){
   header{
     height: 65vh;
   }
@@ -9,12 +9,12 @@
     width: 20vw;
     margin-top: 0;
     margin-right: 6rem;
-  
   }
   .top__list{
-    width: 20vw;
-    margin-left: 2rem;
+    font-size: 0.90rem;
+    margin-top: 0.95rem;    
   }
+  
   .sobre__photo{
     display: none;
   }
@@ -24,6 +24,7 @@
   }
   .sobre__text {
     width: 90vw;
+    margin-top: 0.70rem;
   }
   .sobre__text h1{
     margin-top: -1rem;
@@ -31,15 +32,23 @@
   }
   .sobre__text p{
      margin-top: -1rem;
-  
   }
   .sobre__text h1{
     font-size: 1.2rem;
   }
   .sobre__link-itens{
     width: 90vw;
-    border: solid black 1px;
     margin-top: 0.80rem;
   }
-
-}
+  h2{
+    font-size: 1rem;
+  }
+  .photo{
+    margin-top: 2rem;
+    background-image: url('../../../public/images/gabriel.jpeg');
+    border-radius: 50%;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+} 
