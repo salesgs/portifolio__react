@@ -13,11 +13,11 @@ const Header = () => {
             
               <nav className='top__nav'>
                   <ul className='top__list'>
-                      <li className='iten'>Sobre mim</li>
-                      <li className='iten'>Skills</li>
-                      <li className='iten'>Hobbies</li>
-                      <li className='iten'>Formação</li>
-                      <li className='iten'>Projetos</li>
+                      <li className='iten'><a href=''>Sobre mim</a></li>
+                      <li className='iten'><a href=''>Skills</a></li>
+                      <li className='iten'><a href=''>Hobbies</a></li>
+                      <li className='iten'><a href=''>Formação</a></li>
+                      <li className='iten'><a href=''>Projetos</a> </li>
                       <li>Whatsapp</li>   
                    </ul>
             
@@ -33,9 +33,9 @@ const Header = () => {
             <p>Sou estudante de Desenvolvimento de sistemas do Senai(BA), formado no programa de formação full-stack na Recode-Pro,e atualmente aluno da Oracle Next Education. Bom estou embusca da minha primeira oportunidade no mundo da tecnologia, espero e irie conseguir logo em breve.
             <div>
                <ul className='sobre__link-itens'>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Instagram</a></li>
+                    <li><a href="https://github.com/salesgs">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/gabriel-salesgs">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/gabrielsalesjr/">Instagram</a></li>
                     <li><a href="#">Curriculo</a></li>
                </ul>
             </div>

@@ -45,7 +45,8 @@ header{
 .sobre__text{
   width: 50vw;
   margin-top: 4rem;
-  font-family: serif;
+  font-family: cursive;
+
 }
 .sobre__text h1{
   font-family: cursive;
@@ -60,7 +61,11 @@ header{
 }
 .sobre__link-itens li a{
   text-decoration: none;
-  font-family: serif;
+  font-family: cursive;
+  color: #464646;
+}
+.sobre__link-itens li a:hover{
+  background-color: red;
 }
 .sobre__photo{
   width: 20vw;
