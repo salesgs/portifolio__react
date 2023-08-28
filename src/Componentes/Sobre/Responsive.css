@@ -1,0 +1,17 @@
+@media screen and (min-width:200px) and (max-width:700px){
+  .bio{
+    margin-top: -8rem;
+    padding-top: 2rem;
+    width: 100vw;
+ 
+  }
+  .bio__text{
+    width: 100vw;
+  }
+  .bio__content{
+    width: 95vw;
+    border: solid black 1px;
+   
+  }
+}
+

@@ -1,8 +1,10 @@
-import Header from "./Componentes/Header"; //importando componente do arquivo
+import Main  from "./Componentes/Main";
 function App() {
   return (
     <div className="App">
-        <Header/>  
+        {/* <Header/>  
+        */}
+        <Main/>
       </div>
   );
 }

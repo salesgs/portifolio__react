@@ -1,6 +1,6 @@
 @media screen and (min-width:200px) and (max-width:700px){
   header{
-    height: 65vh;
+    height: 90vh;
   }
   .iten{
     display: none;
@@ -42,7 +42,11 @@
   }
   .sobre__link-itens{
     width: 90vw;
+    
+    border: solid black 1px;
     margin-top: 0.80rem;
+    padding-bottom: 1rem;
+    
   }
   h2{
     font-size: 1rem;
@@ -56,3 +60,51 @@
     background-size: cover;
   }
 }   
+
+/* tablets*/
+@media screen and (min-width:700px) and (max-width:900px){
+  .top__list .iten{
+    display: none;
+  }
+  .top__list li a{
+    color: #464646;
+    text-decoration:  none;
+  
+  }
+  .sobre__text{
+    margin-left: -2rem;
+    width: 65vw;
+  }
+  .sobre__photo{
+    width: 180px;
+    height: 180px;
+  }
+  .sobre__link-itens{
+    width: 60vw;
+  }
+}
+/* desktop */
+@media screen and (min-width:900px) and (max-width:3000px){
+  
+  .top__list li a{
+    color: #464646;
+    text-decoration: none; 
+  }
+  .sobre__text{
+    margin-left: 0.60rem;
+    width: 80vw;
+  }
+  .sobre__text p{
+    font-size: 1.55rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .sobre__photo{
+    width: 200px;
+    height: 200px;    
+    margin-left: 1rem;
+  }
+  .sobre__link-itens{
+    width: 50vw;
+    height: 36vh;
+  }
+}
