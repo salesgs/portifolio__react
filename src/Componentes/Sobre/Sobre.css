@@ -2,6 +2,8 @@ body{
   background-image: url('../../../public/images/gabriel.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+ 
 }
 .bio{
   width: 100vw;
