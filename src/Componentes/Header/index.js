@@ -36,7 +36,7 @@ const Header = () => {
                     <li><a href="https://github.com/salesgs">GitHub</a></li>
                     <li><a href="https://www.linkedin.com/in/gabriel-salesgs">LinkedIn</a></li>
                     <li><a href="https://www.instagram.com/gabrielsalesjr/">Instagram</a></li>
-                    <li><a href="#">Curriculo</a></li>
+                    <li><a href="#">Curriculum</a></li>
                </ul>
             </div>
             </p>
