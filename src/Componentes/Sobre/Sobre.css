@@ -1,3 +1,8 @@
+body{
+  background-image: url('../../../public/images/tech.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .bio{
   width: 100vw;
   height: 300px;
