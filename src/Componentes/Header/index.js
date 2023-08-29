@@ -13,7 +13,7 @@ const Header = () => {
             
               <nav className='top__nav'>
                   <ul className='top__list'>
-                      <li className='iten'><a href=''>Sobre mim</a></li>
+                      <li className='iten'><a href='#sobre'>Sobre mim</a></li>
                       <li className='iten'><a href=''>Skills</a></li>
                       <li className='iten'><a href=''>Hobbies</a></li>
                       <li className='iten'><a href=''>Formação</a></li>

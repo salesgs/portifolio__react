@@ -1,3 +1,4 @@
+/* celulares */
 @media screen and (min-width:200px) and (max-width:700px){
   .bio{
     margin-top: -8rem;
@@ -12,4 +13,33 @@
     width: 95vw;
   }
 }
+/* tabets */
+@media screen and (min-width:700px) and (max-width:900px){
 
+  .bio{
+    width: 100vw;
+    margin-top: -2rem;
+    padding-top: 2rem;
+        
+  }
+  .bio__text{
+    width: 100vw;
+    margin-left: -1rem;
+
+  }
+  .bio__content{
+    width: 95vw;
+    
+  }
+}
+
+@media screen and (min-width:900px) and (max-width:3000px){
+  .bio{
+    margin-top: 2rem;
+    height: 60vh;
+  }
+  .bio__content p{
+    font-size: 1.55rem;
+    font-family: 'Times New Roman', Times, serif;   
+  }
+}

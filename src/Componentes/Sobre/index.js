@@ -2,7 +2,8 @@ import './Sobre.css';
 import './Responsive.css';
 const Sobre = ()=>{
   return(    
-      <div className='bio'>
+      <div className='bio' id="sobre">
+    
           <div className='bio__text'>
               <div className='bio__content'>
                   <h2>Sobre min</h2>
