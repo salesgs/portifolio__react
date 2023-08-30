@@ -1,0 +1,84 @@
+.Skills{
+  background-color: #F5F5F5;
+  border: solid black 1px;
+  width: 100vw;
+  height: 230px;
+  /* flex-box */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Skills__images{
+  border: solid black 1px;
+  margin-top: 4px;
+  height: 180px;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills__html{
+  border: solid black 1px;
+  width: 120px;
+  height: 120px;
+}
+#html{
+  width: 100%;
+}
+.skills__css{
+  border: solid black 1px;
+  width: 120px;
+  height: 120px;
+}
+#css{
+  width: 100%;
+}
+.skills__js{
+  border: solid black 1px;
+  width: 120px;
+  height: 120px;
+}
+#js{
+  width: 100%;
+}
+.skills__react{
+  border: solid black 1px;
+  width: 120px;
+  height: 120px;
+}
+
+#react{
+  width: 100%;
+}
+.skills__node{
+  width: 120px;
+  height: 120px;
+}
+
+#node{
+  width: 100%;
+}
+.skills__git{
+  width: 120px;
+  height: 120px;
+}
+
+#git{
+  width: 100%;
+}
+.skills__java{
+  width: 120px;
+  height: 120px;
+}
+
+#java{
+  width: 100%;
+}
+.skills__mysql{
+  width: 120px;
+  height: 120px;
+}
+#mysql{
+  width: 100%;
+}

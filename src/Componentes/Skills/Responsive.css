@@ -1,0 +1,50 @@
+@media screen and (min-width:200px) and (max-width:700px){
+  .Skills{
+    height: 90vh;
+    margin-top: -8rem; 
+  }
+  .Skills__title{
+    margin-top: -12rem; 
+    
+  }
+  .skills__html{
+    width: 90px;
+    height: 90px;
+    padding-bottom: 10px;
+  }
+  .skills__css{
+    width: 90px;
+    height: 90px;
+  }
+  .skills__js{
+    width: 90px;
+    height: 90px;
+  }
+  
+  .skills__react{
+    width: 90px;
+    height: 90px;
+    padding-bottom: 10px;
+
+  }
+  
+  .skills__node{
+    width: 90px;
+    height: 90px;
+  }
+  
+  .skills__git{
+    width: 90px;
+    height: 90px;
+  }
+  
+  .skills__java{
+    width: 90px;
+    height: 90px;
+  }
+  
+  .skills__mysql{
+    width: 90px;
+    height: 90px;
+  }
+}

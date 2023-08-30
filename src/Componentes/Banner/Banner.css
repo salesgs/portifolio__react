@@ -1,0 +1,9 @@
+
+.banner{
+  margin-top: 60px;
+  width: 100vw;
+  height: 1000px;
+  background-image: url('../../../public/images/gabriel.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
