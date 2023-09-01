@@ -1,9 +1,19 @@
-
 .banner{
-  margin-top: 60px;
+  height: auto;
   width: 100vw;
-  height: 1000px;
+  height: 900px;
+}
+.banner__photo{
+  display: flex;
+  width: 100vw;
+  height: 900px;
+
   background-image: url('../../../public/images/gabriel.jpeg');
   background-size: cover;
   background-repeat: no-repeat;  
+  margin-top: 0; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
 }

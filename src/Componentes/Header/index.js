@@ -1,10 +1,11 @@
+// import Banner from '../Banner';
 import './Header.css';
 import './Responsive.css';
 const Header = () => {
   return(
     <header> 
-      
-      <div className='top'>
+     
+        <div className='top'>
             <div className='top__navigation'>
               <h2>
                 <img src='./images/group.png'/> Gabriel
@@ -47,9 +48,12 @@ const Header = () => {
           </div>
         </div>
       </div>
-  
-      </header>
       
-  ) 
+
+      {/* <Banner/> */}
+      </header>
+   
+      
+      ) 
 }
 export default Header;

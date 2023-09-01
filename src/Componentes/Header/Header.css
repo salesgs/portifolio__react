@@ -1,13 +1,16 @@
 
 header{
   height:70vh;
+ 
 }
+
+
 .top{ 
   width: 100vw;
   /* flex-box */
   display: flex;
   justify-content: center;
-  background-color: #F5F5F5;
+   background-color: #F5F5F5;  
  
 }
 .top__navigation{
@@ -35,7 +38,7 @@ header{
   width: 100vw;
   display: flex;
   justify-content: center;
-  background-color: #F5F5F5;
+    background-color: #F5F5F5;  
 
 }
 .sobre__box{ /*pai*/

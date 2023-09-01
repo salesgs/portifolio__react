@@ -35,7 +35,7 @@
 
 @media screen and (min-width:900px) and (max-width:3000px){
   .bio{
-    margin-top: 2rem;
+    margin-top: 0rem;
     height: 60vh;
   }
   .bio__content p{

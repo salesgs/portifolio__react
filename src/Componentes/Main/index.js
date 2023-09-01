@@ -6,7 +6,7 @@ const Main = ()=>{
   return(
     <div>
         <Header/>
-        <Banner/>
+         <Banner/> 
         <Sobre/>
         <Skills />
   
