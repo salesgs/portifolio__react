@@ -8,9 +8,11 @@
   } 
   .bio__text{
     width: 100vw;
+  
   }
   .bio__content{
     width: 95vw;
+  
   }
 }
 /* tabets */
@@ -36,10 +38,15 @@
 @media screen and (min-width:900px) and (max-width:3000px){
   .bio{
     margin-top: 0rem;
-    height: 60vh;
+    height: 300px;
+   
+  }
+  .bio__content{
+  
   }
   .bio__content p{
-    font-size: 1.55rem;
-    font-family: 'Times New Roman', Times, serif;   
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;   
+    width: 800px;
   }
 }

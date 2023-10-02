@@ -1,84 +1,62 @@
-.Skills{
-  background-color: #F5F5F5;
-  border: solid black 1px;
-  width: 100vw;
-  height: 230px;
-  /* flex-box */
+.title{
+  text-align: center;
+  background-color: #FFFFFF;
+}
+.stacks{
+  /* border: solid black 1px; */
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  justify-content:space-around;
+  gap: 2rem;
+  background-color: #FFFFFF;
 }
-.Skills__images{
-  border: solid black 1px;
-  margin-top: 4px;
-  height: 180px;
-  width: 90vw;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.skills__html{
-  border: solid black 1px;
-  width: 120px;
-  height: 120px;
-}
-#html{
-  width: 100%;
-}
-.skills__css{
-  border: solid black 1px;
-  width: 120px;
-  height: 120px;
-}
-#css{
-  width: 100%;
-}
-.skills__js{
-  border: solid black 1px;
-  width: 120px;
-  height: 120px;
-}
-#js{
-  width: 100%;
-}
-.skills__react{
-  border: solid black 1px;
-  width: 120px;
-  height: 120px;
+.stack__html{
+  margin-left: 4rem;
+  background-image: url('../../../public/images/html.png');
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 
-#react{
-  width: 100%;
+.stack__css{
+  background-image: url('../../../public/images/css.png');
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
-.skills__node{
-  width: 120px;
-  height: 120px;
+.stack__js{
+  background-image: url('../../../public/images/js.png');
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
-
-#node{
-  width: 100%;
+.stack__node{
+  background-image: url('../../../public/images/node.png');
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
-.skills__git{
-  width: 120px;
-  height: 120px;
+.stack__react{
+  background-image: url('../../../public/images/react.png');
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
-
-#git{
-  width: 100%;
+.stack__git{
+  background-image: url('../../../public/images/git.png');
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
-.skills__java{
-  width: 120px;
-  height: 120px;
-}
-
-#java{
-  width: 100%;
-}
-.skills__mysql{
-  width: 120px;
-  height: 120px;
-}
-#mysql{
-  width: 100%;
+.stack__mysql{
+  background-image: url('../../../public/images/mysql.png');
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }

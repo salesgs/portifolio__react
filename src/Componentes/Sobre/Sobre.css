@@ -14,5 +14,11 @@
  .bio__content{
   width: 45vw;
   height: 180px;
-  
+  font-size: 16px;
+ }
+ .bio__content h2{
+  font-family: 'Montserrat', sans-serif;
+ }
+ .bio__content h2 p{
+  font-family: 'Montserrat', sans-serif;
  }
