@@ -1,0 +1,19 @@
+.hobbies__video h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;;
+}
+.hobbies__video{
+  /* border: solid black 1px; */
+  width: 40vw;
+  height: 52vh;
+  /* box-model */
+  margin-top: 6rem;
+  position: relative;
+  width: 100%; 
+}
+.hobbies__video iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  border: none;
+}
